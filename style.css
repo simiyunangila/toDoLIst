@@ -1,0 +1,46 @@
+body{
+    margin: 0 auto;
+    text-align: center;
+}
+body h1{
+    font-size: 50px;
+    font-style: italic;
+    color: darkcyan;
+}
+body > p{
+    font-size: 30px;
+}
+body > input{
+    padding: 20px 40px;
+    width: 20%;
+    outline: none;
+    border: solid rgb(131, 117, 117) 0.5px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+body > button{
+    border: none;
+    outline: none;
+    padding: 18px 30px;
+    background-color:rgb(218, 126, 14);
+    color: #fff;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+}
+button{
+    padding: 20px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    background-color: darkgreen;
+    margin: 15px;
+}
+body >ul{
+    font-size: 60px;
+    text-decoration: none;
+}
+#taskList{
+    font-size: 30px;
+}
