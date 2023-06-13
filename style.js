@@ -1,10 +1,7 @@
 let taskList = document.getElementById("taskList");
 let taskInput = document.getElementById("taskInput");
 let tasks = [];
-// const button=document.querySelector(".edit")
-// function changeColor(){
-//   edit.style.color="dark-orange"
-// }
+
 function addTask() {
   let task = taskInput.value;
   if (task !== "") {

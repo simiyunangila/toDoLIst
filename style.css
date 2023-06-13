@@ -1,11 +1,12 @@
 body{
     margin: 0 auto;
     text-align: center;
+    background-color:cyan;
 }
 body h1{
     font-size: 50px;
     font-style: italic;
-    color: darkcyan;
+    color: black;
 }
 body > p{
     font-size: 30px;
@@ -29,13 +30,13 @@ body > button{
     cursor: pointer;
 }
 button{
-    padding: 20px 30px;
+    padding: 18px 2%;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     color: white;
-    background-color: darkgreen;
-    margin: 15px;
+    background-color: black;
+    margin: 8px;
 }
 body >ul{
     font-size: 60px;
