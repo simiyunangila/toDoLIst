@@ -3,10 +3,10 @@ let taskInput = document.getElementById("taskInput");
 let tasks = [];
 
 function addTask() {
-  let task = taskInput.value;
+  let task = input.value;
   if (task !== "") {
     tasks.push(task);
-    taskInput.value = "";
+    input.value = "";
     displayTasks();
   }
 }
