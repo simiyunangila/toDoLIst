@@ -35,3 +35,38 @@ function doneTask(index) {
   let li = taskList.childNodes[index];
   li.style.textDecoration = "line-through";
 }
+
+
+// let usersContainer = document.getElementById('input');
+// const getUsers = ()=>{
+//     return fetch('https://dummyjson.com/todos')
+//     // return fetch('https://dummyjson.com/todos?limit=5')
+//     .then(response =>response.json())
+//     .then(response=>response)
+//     .catch(error=>error.message)
+//     // .then(response=>console.log({response}))
+//     // .catch(error=>console.log(error))
+// };
+// getUsers();
+
+// const displayUsers = async()=>{
+// const users =await getUsers();
+// console.log(users.users);
+// users.users.map(item=>{
+//     let div = document.createElement('div');
+//     div.className = 'people';
+//     let img = document.createElement('img');
+//     let names= document.createElement('h2');
+//     let userName = document.createElement('p');
+
+//     img.src = item.image;
+//     names.innerHTML = `${item.firstName} ${item.lastName}`;
+//     userName.innerHTML = item.username;
+
+//     div.appendChild(img);
+//     div.appendChild(names);
+//     div.appendChild(userName);
+//     usersContainer.appendChild(div);
+// })
+// }
+// displayUsers();
