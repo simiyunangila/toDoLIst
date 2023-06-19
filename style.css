@@ -29,15 +29,15 @@ body > button{
     font-size: 18px;
     cursor: pointer;
 }
-/* button{
-    padding: 18px 2%;
+button{
+    padding: 16px 18px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     color: white;
     background-color: black;
-    margin: 8px; */
-/* } */
+    margin: 8px;
+}
 body >ul{
     font-size: 60px;
     text-decoration: none;
